@@ -1,0 +1,34 @@
+- context: success 200
+  test:
+    description: Valid Data - Create Pet
+    id: 1
+    response_data:
+      id: 1
+      category:
+        id: 1
+        name: Dog
+      name: doggie
+      photoUrls:
+      - string
+      tags:
+      - id: 1
+        name: Bob
+      status: available
+
+- context: fail 404
+  test:
+    description: Invalid Data - wrong id
+    id: hliuli
+    response_data:
+      code: 404
+      type: unknown
+      message: 'java.lang.NumberFormatException: For input string: "hliuli"'
+
+- context: fail 405
+  test:
+    description: Invalid Data - id is missed
+    response_data:
+      code: 405
+      type: unknown
+
+
