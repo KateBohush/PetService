@@ -40,11 +40,11 @@ end
 
 desc 'Run tests'
 task services_spec: [:start] do
-         suites = SUITES.split(',')
+      
 cmd = 'parallel_rspec'
 
 suites.each do |suite|
-  cmd = "#{cmd} spec/services_spec/#{suite}_spec"
+  cmd = "#{cmd} spec/services_spec/pet_service_spec"
 end
 
 begin
