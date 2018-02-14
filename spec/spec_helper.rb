@@ -29,7 +29,7 @@ RSpec.configure do |config|
   require_all 'app'
   require_all 'lib'
 
-  RSpec.configuration.logger = CustomLogger.new(File.new("log/init.log", 'w'))
+  #RSpec.configuration.logger = CustomLogger.new(File.new("log/init.log", 'w'))
   CustomRestClient.logger = RSpec.configuration.logger
 
   # rspec-expectations config goes here. You can use an alternate
