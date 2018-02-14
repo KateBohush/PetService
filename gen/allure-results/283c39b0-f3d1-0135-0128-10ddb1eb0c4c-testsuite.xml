@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1518625337484" stop="1518625338962">
+  <name>Create pet - success 200</name>
+  <title>Create pet - success 200</title>
+  <test-cases>
+    <test-case start="1518625337485" stop="1518625338153" status="passed">
+      <name>Create pet - success 200  (Valid Data)</name>
+      <title>Create pet - success 200  (Valid Data)</title>
+      <steps/>
+      <attachments>
+        <attachment source="518a5e19fdeb2084e765f787628a1d2d352fdcf2a9374f4c6889949bdd64c31c-attachment.txt" title="test_log" size="1470" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Pet Service"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70236644833620"/>
+        <label name="host" value="epualviw1029"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1518625338155" stop="1518625338962" status="passed">
+      <name>Create pet - success 200  (Valid Data - Only id required)</name>
+      <title>Create pet - success 200  (Valid Data - Only id required)</title>
+      <steps/>
+      <attachments>
+        <attachment source="212c614a8141d03471eb310298d88b0ecab3e0890a18d9dc557044cbc06d74a4-attachment.txt" title="test_log" size="1157" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Pet Service"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70236644833620"/>
+        <label name="host" value="epualviw1029"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="feature" value="Pet Service"/>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="70236644833620"/>
+    <label name="host" value="epualviw1029"/>
+  </labels>
+</ns2:test-suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1518625339931" stop="1518625340443">
+  <name>Find pet - success 200</name>
+  <title>Find pet - success 200</title>
+  <test-cases>
+    <test-case start="1518625339931" stop="1518625340443" status="passed">
+      <name>Find pet - success 200  (Valid Data - Create Pet)</name>
+      <title>Find pet - success 200  (Valid Data - Create Pet)</title>
+      <steps/>
+      <attachments>
+        <attachment source="18ddc52c116a9a7f9cf7384df18934789c30f23505ffd1a93acf31bc91a6a371-attachment.txt" title="test_log" size="1195" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Pet Service"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70236644833620"/>
+        <label name="host" value="epualviw1029"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="feature" value="Pet Service"/>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="70236644833620"/>
+    <label name="host" value="epualviw1029"/>
+  </labels>
+</ns2:test-suite>

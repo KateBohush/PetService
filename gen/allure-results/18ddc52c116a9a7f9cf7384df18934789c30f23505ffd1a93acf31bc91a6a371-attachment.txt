@@ -1,0 +1,34 @@
+D, [2018-02-14 18:22:19#20344] DEBUG -- : ----------------------------------------
+D, [2018-02-14 18:22:19#20344] DEBUG -- : Example ( (Valid Data - Create Pet)) STARTED
+D, [2018-02-14 18:22:19#20344] DEBUG -- : 
+
+Get Pet by id 1:
+D, [2018-02-14 18:22:20#20344] DEBUG -- : REQUEST METHOD: get, to url: http://petstore.swagger.io/v2/pet/1
+D, [2018-02-14 18:22:20#20344] DEBUG -- : with next headers: {
+  "Accept": "application/json",
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "Content-Type": "application/json",
+  "Referer": "http://petstore.swagger.io/",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept-Language": "en-US,en;q=0.9"
+}
+D, [2018-02-14 18:22:20#20344] DEBUG -- : RESPOND WITH: status code 200 and body: {
+  "id": 1,
+  "category": {
+    "id": 1,
+    "name": "Dog"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Bob"
+    }
+  ],
+  "status": "available"
+}
+D, [2018-02-14 18:22:20#20344] DEBUG -- : Example ( (Valid Data - Create Pet)) PASSED
+D, [2018-02-14 18:22:20#20344] DEBUG -- : -----------------------------------------

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1518625340443" stop="1518625340957">
+  <name>Find pet - fail 404</name>
+  <title>Find pet - fail 404</title>
+  <test-cases>
+    <test-case start="1518625340444" stop="1518625340957" status="passed">
+      <name>Find pet - fail 404  (Invalid Data - wrong id)</name>
+      <title>Find pet - fail 404  (Invalid Data - wrong id)</title>
+      <steps/>
+      <attachments>
+        <attachment source="7e600b5988bda3a029d3a8451844f34e8429adbad414a2e21366ed6fe0ff546b-attachment.txt" title="test_log" size="1112" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Pet Service"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70236644833620"/>
+        <label name="host" value="epualviw1029"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="feature" value="Pet Service"/>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="70236644833620"/>
+    <label name="host" value="epualviw1029"/>
+  </labels>
+</ns2:test-suite>
