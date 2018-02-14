@@ -1,9 +1,2 @@
 .idea
-/gen/
-/newbuild.log
-log/*.log
-log/*.txt
-tmp/**/*
-/spec/preconditions_handling/current_preconditions/
-!/log/readme.txt
-/.project
+

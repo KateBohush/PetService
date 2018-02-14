@@ -1,0 +1,22 @@
+D, [2018-02-14 18:22:19#20344] DEBUG -- : ----------------------------------------
+D, [2018-02-14 18:22:19#20344] DEBUG -- : Example ( (Invalid Data - empty request)) STARTED
+D, [2018-02-14 18:22:19#20344] DEBUG -- : 
+
+Create Pet:
+D, [2018-02-14 18:22:19#20344] DEBUG -- : REQUEST METHOD: put, to url: http://petstore.swagger.io/v2/pet
+D, [2018-02-14 18:22:19#20344] DEBUG -- : with next headers: {
+  "Accept": "application/json",
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+  "Content-Type": "application/json",
+  "Referer": "http://petstore.swagger.io/",
+  "Accept-Encoding": "gzip, deflate",
+  "Accept-Language": "en-US,en;q=0.9",
+  "Origin": "http://petstore.swagger.io/v2"
+}
+D, [2018-02-14 18:22:19#20344] DEBUG -- : RESPOND WITH: status code 500 and body: {
+  "code": 500,
+  "type": "unknown",
+  "message": "something bad happened"
+}
+D, [2018-02-14 18:22:19#20344] DEBUG -- : Example ( (Invalid Data - empty request)) PASSED
+D, [2018-02-14 18:22:19#20344] DEBUG -- : -----------------------------------------
